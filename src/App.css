@@ -1,0 +1,23 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Additional responsive styles */
+@media (max-width: 768px) {
+  .topnav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .topnav div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .title {
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+}

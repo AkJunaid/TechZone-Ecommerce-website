@@ -1,26 +1,22 @@
-import React,{ Component } from "react";
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class NavBar extends Component {
-    render(){ 
-        return( 
-        <React.Fragment>
-                  <div className="topnav">
-
-                  <h4 className="title">TechZone</h4> 
-        <a className="active" href="#home">Home</a>
-        
-        <a href="/#news">Product</a>
-        <a href="/#contact">Contact</a>
-        <a href="/#about">About</a>
-        <a href="/#Signup">Signup</a>
-        <a href="/#Login">Login</a>
-      </div>
-        </React.Fragment>
-
-);
-
+    render() { 
+        return ( 
+            <React.Fragment>
+                <div className="topnav">
+                    <h4 className="title">TechZone</h4> 
+                    <div>
+                        <Link to="/home">Home</Link>
+                        <Link to="/about">About</Link>
+                        <Link to="/contact">Contact</Link>
+                        <Link to="/signup">Signup</Link>
+                        <Link to="/login">Login</Link>
+                    </div>
+                </div>
+            </React.Fragment>
+        );
     }
-
-
 }
 

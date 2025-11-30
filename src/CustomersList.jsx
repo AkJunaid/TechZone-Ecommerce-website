@@ -24,14 +24,14 @@ export default class MainContent extends Component{
             <button className="refreshButton"  onClick={this.onRefreshClick}>Refresh</button>
             </h4> 
             <table className="table">
-                <tread>
+                <thead>
                     <tr>
                         <th>#</th>
                         <th>Customer Name</th>
                         <th>Phone</th>
                     </tr>
 
-                </tread> 
+                </thead> 
                 <tbody>
                     {
                     this.state.customers.map((cust)=>{ //mapping with arrow function,at line number 42 if some data is missing then it will show no phone 
