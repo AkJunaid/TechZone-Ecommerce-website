@@ -210,18 +210,3 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-For questions or support, please contact:
-- Email: support@techzone.com
-- GitHub: [@AkJunaid](https://github.com/AkJunaid)
-
-## Acknowledgments
-
-- Built with Create React App
-- UI components from Bootstrap 5
-- Icons and styling inspired by modern e-commerce platforms
